@@ -184,6 +184,12 @@
             </div>
         </footer>
     </div>
+    <script>
+        var button = document.getElementById("login_card_submit");
+        button.onclick = function () {
+            window.location = window.location.pathname.replace('admin_login', 'profile');
+        }
+    </script>
     <script src="assets/js/jquery-1.12.1.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
