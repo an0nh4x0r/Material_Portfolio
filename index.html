@@ -1,10 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="description" content="Login page for Materiamaze.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Title</title>
+    <script src="assets/js/pace.min.js"></script>
+    <link rel="stylesheet" href="assets/css/pace.css">
+    <link rel="stylesheet" href="mdl/material.blue-light_blue.min.css">
+    <script src="mdl/material.min.js"></script>
+    <link rel="stylesheet" href="assets/font-awesome-4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+                mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <div class="mdl-layout-spacer"></div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                      mdl-textfield--floating-label mdl-textfield--align-right">
+                    <label class="mdl-button mdl-js-button mdl-button--icon"
+                           for="fixed-header-drawer-exp">
+                        <i class="material-icons">search</i>
+                    </label>
+                    <div class="mdl-textfield__expandable-holder">
+                        <input class="mdl-textfield__input" type="text" name="sample"
+                               id="fixed-header-drawer-exp">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <div class="mdl-grid social-icons">
+                <div id="facebook"><i class="fa fa-facebook"></i></div>
+                <div class="mdl-tooltip" for="facebook">
+                    Facebook
+                </div>
+
+                <div id="twitter"> <i class="fa fa-twitter"></i> </div>
+                <div class="mdl-tooltip" for="twitter">
+                    Twitter
+                </div>
+
+                <div id="linkedin"><i class="fa fa-linkedin"></i></div>
+                <div class="mdl-tooltip" for="linkedin">
+                    Linkedin
+                </div>
+            </div>
+            <hr id="horizontal_line_between_navigation_social_icons">
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href=""> <span class="material-icons">home</span> Home</a>
+                <a class="mdl-navigation__link" href=""> <span class="material-icons">work</span> Work Experience</a>
+                <a class="mdl-navigation__link" href="contact.html"> <span class="material-icons">message</span> Contact Me </a>
+                <a class="mdl-navigation__link" href=""> <span class="material-icons">supervisor_account</span> Admin Login</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+
+                <footer class="mdl-mini-footer">
+                    <div class="mdl-mini-footer__left-section">
+                        <div class="mdl-logo">Developed By <a href="#" target="_blank">Cygnus Pvt. Ltd.</a></div>
+                    </div>
+                    <div class="mdl-mini-footer--right-section">
+                        <ul class="mdl-mini-footer__link-list">
+                            <li><a href="#">&copy; 2016 acdc.co.in</a></li>
+                        </ul>
+                    </div>
+                </footer>
+
+            </div>
+        </main>
+    </div>
 
 </body>
 </html>
