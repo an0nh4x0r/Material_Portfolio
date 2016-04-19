@@ -1,0 +1,89 @@
+#account_circle, #lock, #email, #phone{
+    margin-top: 23px;
+}
+
+#actions{
+    margin-top: 5px;
+}
+
+#visibility{
+    margin-top: 23px;
+}
+
+#lock{
+    margin-left: 30px;
+}
+
+#password_div{
+    margin-top: -10px;
+}
+
+#remember_me_span{
+    font-size: 13px;
+    font-style: italic;
+}
+
+#remember_me_label{
+    margin-top: 5px;
+}
+
+#phone_div{
+    margin-top: -10px;
+}
+
+#submit_div{
+    margin-bottom: 10px;
+}
+
+#login_card{
+    margin-top: 45px;
+}
+
+#forgot_password_card{
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    #remember_me_label{
+        margin-left: 20px;
+    }
+
+    #login_card_submit{
+        margin-left: 30px;
+    }
+}
+
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+.mdl-card__title{
+    width: 331px;
+    height: 110px;
+    background: url("../img/login.svg") no-repeat;
+}
+
+.mdl-card__title > span {
+    color: #fafafa;
+}
+
+#horizontal_line{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+#horizontal_line_f_p{
+    margin-top: 5px;
+    margin-bottom: 14px;
+}
+
+/*This snippet starts here is very very important*/
+/*
+    work :- applying this footer scrolls along
+    with the test and donot sticks there!
+*/
+main{
+    flex: 1 0 auto;
+}
+
+/*Snippet end*/
