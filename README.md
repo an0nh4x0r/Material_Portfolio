@@ -1,1 +1,1 @@
-Material Portfolio! Created a prototype model for fast development on client projects!
+Material Portfolio! A prototype model for fast development on client projects!
