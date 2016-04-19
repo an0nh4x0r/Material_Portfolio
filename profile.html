@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Profile</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="description" content="Login page for Materiamaze.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Title</title>
+    <script src="assets/js/pace.min.js"></script>
+    <link rel="stylesheet" href="assets/css/pace.css">
+    <link rel="stylesheet" href="mdl/material.blue-light_blue.min.css">
+    <script src="mdl/material.min.js"></script>
+    <link rel="stylesheet" href="assets/font-awesome-4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="assets/css/profile.css">
 </head>
 <body>
 
-    <h3 style="text-align: center">Welcome to the profile page!</h3>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+                mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title"></span>
+                <div class="mdl-layout-spacer"></div>
+                <button id="demo-menu-lower-right"
+                        class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                </button>
+
+                <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+                    for="demo-menu-lower-right">
+                    <a href="admin_login.html"><li class="mdl-menu__item">Settings</li></a>
+                    <a href="admin_login.html"><li class="mdl-menu__item">Change Password</li></a>
+                    <a href="admin_login.html"><li class="mdl-menu__item">Logout</li></a>
+                </ul>
+
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Title</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <!--Page content goes here-->
+            </div>
+        </main>
+    </div>
 
 </body>
 </html>
